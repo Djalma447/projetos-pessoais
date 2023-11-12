@@ -3,3 +3,22 @@
 :root{
     --cor1: #E56723;
 }
+
+body{
+    background-color: var(--cor1);
+}
+
+main{
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    width: 25%;
+}
