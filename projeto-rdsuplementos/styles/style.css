@@ -20,5 +20,5 @@ img{
     border-radius: 10px;
     display: block;
     margin: auto;
-    width: 25%;
+    max-width: 350px;
 }
