@@ -115,6 +115,11 @@ img{
     padding: 5px;
 }
 
+img.creatina{
+    display: block;
+    margin: auto;
+}
+
 footer{
     text-align: center;
     color: white;
