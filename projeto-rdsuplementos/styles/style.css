@@ -90,6 +90,14 @@ main article h2.tipo{
     margin: auto;
 }
 
+main article h2.subcapitulo{
+    color: var(--cor1);
+    font-family: var(--fonte1);
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 main article h2.contato{
     text-align: center;
     padding: 5px;
@@ -116,11 +124,26 @@ main article h3.nome {
     max-width: 130px;
 }
 
-main p{
+main article p{
     font-family: var(--fonte2);
-    
+    line-height: 1.3em;
     padding: 5px;
     margin: 5px;
+}
+
+main article p#final{
+    text-align: center;
+}
+
+main article p#w3w{
+    line-height: 20px;
+}
+
+main article ul{
+    font-family: var(--fonte2);
+    list-style-position: inside;
+    line-height: 1.3em;
+    margin-left: 10px;
 }
 
 main h4.marca{
